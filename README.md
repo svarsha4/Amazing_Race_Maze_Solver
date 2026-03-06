@@ -22,7 +22,7 @@ This project aims to create a solution for the user when navigating a maze.
 - **Running the project:**
     - python maze_solver.py
 
--**Setting Up GitHub Repository:**
+- **Setting Up GitHub Repository:**
     - git init
     - git remote add origin https://github.com/username/repositoryName.git
         - e.g. git remote add origin https://github.com/svarsha4/Amazing_Race_Maze_Solver.git
