@@ -36,3 +36,4 @@ This project aims to create a solution for the user when navigating a maze.
     - Write commit message and then click on the blue Commit button
         - To commit only certain updated files, stage the files to commit
         - A file gets staged when the + icon is clicked to the right of the file in the Source Control panel
+    - Click on the blue Sync Changes button
