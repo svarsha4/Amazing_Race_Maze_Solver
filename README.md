@@ -15,12 +15,16 @@ This project aims to create a solution for the user when navigating a maze.
 
 ### Project Setup
 
-- **Installations needed:**
-    - Install the latest version of Git
-        - https://git-scm.com/install/windows
-
 - **Running the project:**
     - python maze_solver.py
+
+- **Testing Code:**
+    - The folder "test_cases" contains 10 txt files with different maze configurations
+        - In main(), provide the name of the txt file to be tested
+    - Refer to the "test_maze_solver.py" file for the exact test cases for each of those 10 maze configurations
+
+- **Running the tests:**
+    - python -m unittest test_maze_solver.py
 
 - **Setting Up GitHub Repository:**
     - git init
@@ -37,11 +41,7 @@ This project aims to create a solution for the user when navigating a maze.
         - To commit only certain updated files, stage the files to commit
         - A file gets staged when the + icon is clicked to the right of the file in the Source Control panel
     - Click on the blue Sync Changes button
-
-- **Testing Code:**
-    - The folder "test_cases" contains 10 txt files with different maze configurations
-    - In main(), provide the name of the txt file to be tested
-
+    
 
 ### Important Considerations
 
