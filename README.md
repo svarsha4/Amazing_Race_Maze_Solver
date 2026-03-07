@@ -38,6 +38,10 @@ This project aims to create a solution for the user when navigating a maze.
         - A file gets staged when the + icon is clicked to the right of the file in the Source Control panel
     - Click on the blue Sync Changes button
 
+- **Testing Code:**
+    - The folder "test_cases" contains 10 txt files with different maze configurations
+    - In main(), provide the name of the txt file to be tested
+
 
 ### Important Considerations
 
