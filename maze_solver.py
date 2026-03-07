@@ -158,7 +158,7 @@ def solve_maze(maze, start_row, start_col, visited, path):
 def main():
     # Calls the function to convert the maze from the txt file into a 2D list
     # ----- ADJUST THE FILE NAME TO CORRESPOND WITH THE EXAMPLE YOU'RE TESTING -----
-    maze = load_maze_from_file("mazes/maze1.txt")
+    maze = load_maze_from_file("mazes/maze10.txt")
 
     # Calls the function to find the starting position in the maze
     start_row, start_col = start_position(maze)
