@@ -4,7 +4,6 @@ from maze_solver import (
     load_maze_from_file,
     start_position,
     coordinates_to_path_steps,
-    print_detailed_path,
     solve_maze
 )
 
@@ -18,8 +17,6 @@ class TestMazeSolver(unittest.TestCase):
         start_row, start_col = start_position(maze)
         solution = solve_maze(maze, start_row, start_col, visited, path)
         steps = coordinates_to_path_steps(solution)
-
-        print_detailed_path(steps)
 
         # Verifies that a solution is ACTUALLY found for the maze
         self.assertIsNotNone(solution)
