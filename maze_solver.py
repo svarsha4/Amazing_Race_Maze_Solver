@@ -98,7 +98,7 @@ def print_detailed_path(coordinates):
     print("End")
 
 
-def solve_maze(maze, start_row, start_col, visited, path):
+def solve_maze(maze, start_row, start_col, visited):
     """
     This function uses a Breadth First Search algorithm
     to find the shortest solution path through the maze.
@@ -108,7 +108,6 @@ def solve_maze(maze, start_row, start_col, visited, path):
         start_row (int): The row of the starting coordinate (row, col) of the maze
         start_col (int): The column of the starting coordinate (row, col) of the maze
         visited (set): A set used to keep track of which coordinates were already VISITED in the maze
-        path (list[tuple]): A list to store the coordinates (row, col) in the path taken through the maze
 
     Returns:
         list[tuple]: The solution through the maze,
@@ -164,10 +163,9 @@ def main():
     start_row, start_col = start_position(maze)
 
     visited = set()
-    path = []
 
     # Calls the function to provide the solution to the maze
-    solution = solve_maze(maze, start_row, start_col, visited, path)
+    solution = solve_maze(maze, start_row, start_col, visited)
     # Calls the function to convert the coordinates in the path to the steps needed to take
     # the path through the maze
     solution_steps = coordinates_to_path_steps(solution)

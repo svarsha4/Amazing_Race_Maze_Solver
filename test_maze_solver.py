@@ -11,11 +11,10 @@ from maze_solver import (
 class TestMazeSolver(unittest.TestCase):
     def run_maze_test(self, filename):
         visited = set()
-        path = []
 
         maze = load_maze_from_file(filename)
         start_row, start_col = start_position(maze)
-        solution = solve_maze(maze, start_row, start_col, visited, path)
+        solution = solve_maze(maze, start_row, start_col, visited)
         steps = coordinates_to_path_steps(solution)
 
         # Verifies that a solution is ACTUALLY found for the maze
