@@ -45,7 +45,7 @@ def start_position(maze):
 def coordinates_to_path_steps(coordinates):
     """
     This function converts a list of coordinates (row, col) 
-    from the maze into a path step (step, col+1)
+    from the maze into path steps (step, col+1) comprising the path
 
     Parameters:
         coordinates (list[tuple]): A list of (row, col) coordinates
