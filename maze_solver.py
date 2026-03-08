@@ -48,7 +48,7 @@ def coordinates_to_path_steps(coordinates):
     from the maze into path steps (step, col+1) comprising the path
 
     Parameters:
-        coordinates (list[tuple]): A list of (row, col) coordinates
+        coordinates (list[tuple]): A list of coordinates (row, col)
 
     Returns:
         list[tuple]: The path traveled in the maze.
@@ -68,7 +68,7 @@ def print_detailed_path(coordinates):
     from the maze into the movement directions to take for each step (step, direction)
 
     Parameters:
-        coordinates (list[tuple]): A list of (row, col)
+        coordinates (list[tuple]): A list of coordinates (row, col) 
     
     Returns: 
         void
