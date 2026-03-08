@@ -25,7 +25,7 @@ class TestMazeSolver(unittest.TestCase):
         end_row = len(maze) - 1
         self.assertEqual(solution[-1][0], end_row)
 
-        # Verifies that every coordinate in the maze solution is ACTUALLY comprises a valid path 
+        # Verifies that every coordinate in the maze solution ACTUALLY comprises a valid path 
         # (i.e. has a value of 1 in the maze)
         for row, col in solution:
             self.assertEqual(maze[row][col], 1)
