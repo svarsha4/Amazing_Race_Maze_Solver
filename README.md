@@ -47,5 +47,5 @@ This project aims to create a solution for the user when navigating a maze.
 
 - **Queue & Breadth First Search:**
     - The BFS algorithm is implemented here by exploring all the possible paths than can be taken by level.
-    - First, all the possible paths that are 1 step away from the starting position are explored. Next, all the possible paths that are 2 steps away from the starting position get explored. This process continues until the last row of the maze is reached.
-    - Therefore, a queue is particularly useful for implementing BFS, because it ensures that FIRST the paths one step away are FIRST removed from the queue and analyzed (i.e. "first in first out principle"). Next, the paths that are two steps away get removed and  analyzed. In essence, this process continues until the final step is reached.
+    - First, all the possible paths that are 1 step away from the starting position are explored. Next, all the possible paths that are 2 steps away from the starting position get explored. Then, all the possible paths that are 3 steps away from the starting position get explored. This process continues until the last row of the maze is reached.
+    - Therefore, a queue is particularly useful for implementing BFS, because it ensures that FIRST the paths one step away are FIRST removed and analyzed from the queue (i.e. "first in first out principle"). Next, the paths that are two steps away get removed and analyzed from the queue. In essence, this process continues until the final step is removed and analyzed from the queue.
