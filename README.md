@@ -19,7 +19,7 @@ This project aims to create a solution for the user when navigating a maze.
     - python maze_solver.py
 
 - **Testing Code:**
-    - The folder "test_cases" contains 10 txt files with different maze configurations
+    - The folder "mazes" contains 10 txt files with different maze configurations
         - In main(), provide the name of the txt file to be tested
     - Refer to the "test_maze_solver.py" file for the exact test cases for each of those 10 maze configurations
 
